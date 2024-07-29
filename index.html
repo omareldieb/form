@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mental Health Assessment Form</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>Mental Health Assessment Form</h1>
+  <form id="mental-health-form">
+    <section>
+      <h2>Section 1: How often have you felt the following in the past week?</h2>
+      <div class="question">
+        <label>Feeling nervous or on edge:</label>
+        <select id="nervous" name="nervous">
+          <option value="0">Not at all</option>
+          <option value="1">A little</option>
+          <option value="2">Some</option>
+          <option value="3">Most of the time</option>
+          <option value="4">Almost always</option>
+        </select>
+      </div>
+      <div class="question">
+        <label>Feeling hopeless or helpless:</label>
+        <select id="hopeless" name="hopeless">
+          <option value="0">Not at all</option>
+          <option value="1">A little</option>
+          <option value="2">Some</option>
+          <option value="3">Most of the time</option>
+          <option value="4">Almost always</option>
+        </select>
+      </div>
+      <div class="question">
+        <label>Feeling sad or empty:</label>
+        <select id="sad" name="sad">
+          <option value="0">Not at all</option>
+          <option value="1">A little</option>
+          <option value="2">Some</option>
+          <option value="3">Most of the time</option>
+          <option value="4">Almost always</option>
+        </select>
+      </div>
+    </section>
+    <section>
+      <h2>Section 2: How often have you experienced the following in the past week?</h2>
+      <div class="question">
+        <label>Difficulty sleeping or oversleeping:</label>
+        <select id="sleep" name="sleep">
+          <option value="0">Not at all</option>
+          <option value="1">A little</option>
+          <option value="2">Some</option>
+          <option value="3">Most of the time</option>
+          <option value="4">Almost always</option>
+        </select>
+      </div>
+      <div class="question">
+        <label>Difficulty concentrating or making decisions:</label>
+        <select id="concentrate" name="concentrate">
+          <option value="0">Not at all</option>
+          <option value="1">A little</option>
+          <option value="2">Some</option>
+          <option value="3">Most of the time</option>
+          <option value="4">Almost always</option>
+        </select>
+      </div>
+      <div class="question">
+        <label>Feeling tired or having little energy:</label>
+        <select id="tired" name="tired">
+          <option value="0">Not at all</option>
+          <option value="1">A little</option>
+          <option value="2">Some</option>
+          <option value="3">Most of the time</option>
+          <option value="4">Almost always</option>
+        </select>
+      </div>
+    </section>
+    <button id="submit">Submit</button>
+  </form>
+  <div id="results"></div>
+
+  <script src="main.js"></script>
+</body>
+</html>
